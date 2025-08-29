@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickoff: Servidor MCP-Server RAG com Node.js e Memória Vetorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #34495e;
+            font-size: 2.5em;
+        }
+        p, ul {
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kickoff do Projeto</h1>
+        <h2>MCP-Server RAG com Node.js e Memória Vetorial</h2>
+
+        <div class="section">
+            <p>Seja bem-vindo(a) ao kickoff do projeto! Esta reunião marca o início formal do desenvolvimento de um servidor de <strong>MCP-Server RAG (Retrieval-Augmented Generation)</strong>, utilizando <strong>Node.js</strong> e implementando o conceito de <strong>memória vetorial</strong>.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Visão Geral do Projeto</h2>
+            <p>O objetivo principal é construir um servidor robusto e eficiente que sirva como um ponto de acesso para um modelo de linguagem (LLM), utilizando a arquitetura RAG. A integração de uma memória vetorial permitirá que o modelo acesse e recupere informações de forma contextual e inteligente, melhorando a qualidade das respostas e a experiência do usuário.</p>
+        </div>
+        
+        <div class="section">
+            <h2>2. Tecnologias Chave</h2>
+            <div class="highlight">
+                <ul>
+                    <li><strong>Node.js:</strong> Servirá como o ambiente de execução para a construção do servidor, aproveitando seu modelo de I/O não-bloqueante e seu vasto ecossistema de pacotes.</li>
+                    <li><strong>Memória Vetorial (Vector Memory):</strong> Essencial para armazenar e buscar dados de forma semântica, o que é fundamental para a arquitetura RAG.</li>
+                    <li><strong>Framework de API (Express.js ou Koa.js):</strong> Para a criação de endpoints RESTful para comunicação.</li>
+                    <li><strong>Base de Dados Vetorial (Vector Database):</strong> Como Pinecone, ChromaDB ou Milvus, para armazenar os embeddings (representações vetoriais) dos dados.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Objetivos Iniciais</h2>
+            <ul>
+                <li><strong>Prototipagem do Servidor:</strong> Criação de um servidor Node.js básico que possa receber requisições.</li>
+                <li><strong>Integração com LLM:</strong> Estabelecimento de uma conexão inicial com um modelo de linguagem (por exemplo, via API).</li>
+                <li><strong>POC da Memória Vetorial:</strong> Demonstração de um fluxo completo: a inserção de dados na base vetorial e a recuperação baseada em uma consulta.</li>
+                <li><strong>Definição da Arquitetura:</strong> Esboçar a arquitetura completa do servidor, incluindo os componentes de API, RAG e a camada de memória.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Próximos Passos</h2>
+            <p>Nas próximas semanas, nos concentraremos nas seguintes tarefas:</p>
+            <ul>
+                <li>Configuração do ambiente de desenvolvimento.</li>
+                <li>Pesquisa e seleção da base de dados vetorial mais adequada.</li>
+                <li>Desenvolvimento da prova de conceito (POC) do fluxo RAG.</li>
+                <li>Planejamento das primeiras sprints (semanas de trabalho) do projeto.</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Kickoff realizado em: [data do kickoff]</p>
+        </footer>
+    </div>
+
+</body>
+</html>
