@@ -1,0 +1,61 @@
+{
+  "name": "mcp-rag",
+  "version": "1.0.0",
+  "description": "MCP Server for RAG (Retrieval-Augmented Generation) with file management and vector memory storage",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:mcp": "node scripts/start-mcp.js",
+    "dev": "tsx src/index.ts",
+    "maintenance": "tsx src/maintenance.ts",
+    "test": "jest",
+    "test:mcp": "node scripts/test-mcp.js",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "mcp",
+    "rag",
+    "vector-database",
+    "embeddings",
+    "huggingface",
+    "chromadb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "@types/pdf-parse": "^1.1.5",
+    "axios": "^1.6.2",
+    "commander": "^14.0.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "mammoth": "^1.6.0",
+    "mime-types": "^2.1.35",
+    "natural": "^6.10.4",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/mime-types": "^2.1.4",
+    "@types/natural": "^5.1.5",
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

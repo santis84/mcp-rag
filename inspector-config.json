@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mcp-rag": {
+      "command": "node",
+      "args": [
+        "dist/index.js"
+      ],
+      "cwd": "/home/rsantis/mcpserver",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}
